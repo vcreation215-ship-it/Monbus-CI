@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonBus CI - La force de la solidarité ivoirienne</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: sans-serif; -webkit-tap-highlight-color: transparent; }
+        .pogo-gradient { background: linear-gradient(to bottom, #FF8200 5%, #ffffff 50%, #009E49 95%); }
+    </style>
+</head>
+<body class="bg-slate-100 min-h-screen flex flex-col items-center justify-center p-4">
+
+    <!-- Drapeau Côte d'Ivoire en haut -->
+    <div class="fixed top-0 left-0 w-full h-2 flex">
+        <div class="flex-1 bg-[#FF8200]"></div>
+        <div class="flex-1 bg-white"></div>
+        <div class="flex-1 bg-[#009E49]"></div>
+    </div>
+
+    <div class="bg-white w-full max-w-md rounded-[3rem] shadow-2xl overflow-hidden border border-slate-200">
+        <header class="p-8 text-center border-b border-slate-100">
+            <div class="bg-orange-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-orange-100">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6v6"/><path d="M15 6v6"/><path d="M2 12h19.6"/><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4c-1.1 0-2.1.8-2.4 1.8l-1.4 5c-.1.4-.2.8-.2 1.2 0 .4.1.8.2 1.2C.5 16.3 1 18 1 18h3"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+            </div>
+            <h1 class="text-3xl font-black italic uppercase tracking-tighter text-slate-900">MonBus</h1>
+            <p class="text-[10px] font-bold text-green-600 uppercase tracking-[0.2em] mt-1">La force de la solidarité ivoirienne</p>
+        </header>
+
+        <main class="p-8 space-y-6">
+            <div class="bg-slate-50 p-6 rounded-3xl text-center border border-slate-100">
+                <p class="text-slate-500 font-medium leading-relaxed">
+                    Félicitations ! Si tu vois cet écran, c'est que ton site est maintenant **correctement configuré**.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-orange-50 p-4 rounded-3xl text-center">
+                    <p class="text-2xl mb-1">🤝</p>
+                    <p class="text-[9px] font-black uppercase text-orange-600">Solidarité</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-3xl text-center">
+                    <p class="text-2xl mb-1">💰</p>
+                    <p class="text-[9px] font-black uppercase text-green-600">Le Gaba</p>
+                </div>
+            </div>
+
+            <button onclick="window.location.reload()" class="w-full bg-slate-900 text-white py-5 rounded-2xl font-black uppercase italic tracking-widest shadow-xl active:scale-95 transition-all">
+                Actualiser l'App
+            </button>
+        </main>
+    </div>
+
+    <p class="mt-8 text-[10px] font-black text-slate-400 uppercase tracking-widest italic">Abidjan, Côte d'Ivoire 🇨🇮</p>
+
+</body>
+</html>
+
