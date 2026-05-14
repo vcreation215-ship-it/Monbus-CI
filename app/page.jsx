@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { supabase } from '../utils/supabaseClient.js';
+import { supabase } from '../app/utils/supabaseClient.js';
+
 
 export default function Home() {
   const [messages, setMessages] = useState([]);
